@@ -13,6 +13,7 @@ class App extends Component {
     triedLetters: ''
   }
   
+  //binding for accessing state
   onClickLetter = (letter) => {
     const { word, triedLetters, goodLetters } = this.state
 
@@ -22,10 +23,9 @@ class App extends Component {
       this.setState({ triedLetters: triedLetters + letter })
   }
 
+  //binding for accessing state
   reStart = () => {
-    this.setState({ word: getRadomWord() })
-    this.setState({ goodLetters: '' })
-    this.setState({ triedLetters: '' })
+    this.setState({ word: getRadomWord(), goodLetters: '', triedLetters: '' })
   }
 
   render() {
