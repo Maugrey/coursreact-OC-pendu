@@ -1,10 +1,9 @@
-.word
-{
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    margin-bottom: 30px;
-    width: 500px;
-    text-align: center;
-    margin-top: 20px;
-    font-size: xx-large;    
+.word {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+  width: 500px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: xx-large;
 }

@@ -1,33 +1,29 @@
-.letter
-{
-    width: 30px;
-    height: 26px;
-    text-align: center;
-    list-style: none;
-    display: inline-block;
-    margin: 1px;
-    padding-top: 4px;
+.letter {
+  width: 30px;
+  height: 26px;
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  margin: 1px;
+  padding-top: 4px;
 }
 
-.untry
-{
-    border: 2px black solid;
-    cursor: pointer;
-    font-weight: bold;
+.untry {
+  border: 2px black solid;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.correct
-{
-    border: 2px green solid;
-    cursor: not-allowed;
-    color: green;
-    font-weight: bold;
+.correct {
+  border: 2px green solid;
+  cursor: not-allowed;
+  color: green;
+  font-weight: bold;
 }
 
-.error
-{
-    border: 2px red solid;
-    cursor: not-allowed;
-    color: red;
-    font-weight: bold;
+.error {
+  border: 2px red solid;
+  cursor: not-allowed;
+  color: red;
+  font-weight: bold;
 }
