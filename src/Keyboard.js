@@ -24,14 +24,17 @@ function getLetterStatus(letter, triedLetters, goodLetters) {
                 : triedLetters.indexOf(letter) >= 0 ? 'error' : 'untry'
 }
 
-
 Keyboard.propTypes = {
     letters: PropTypes.string.isRequired,
+    triedLetters: PropTypes.string,
+    goodLetters: PropTypes.string,
     onClick: PropTypes.func.isRequired,
 }
 
-
-
+Keyboard.defaultProps = {
+    triedLetters: '',
+    goodLetters: '',
+}
 
 export default Keyboard
 

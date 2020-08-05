@@ -1,5 +1,6 @@
 .keyboard
 {
-    width: 480px;
+    width: 500px;
     border: 1px blue solid;
+    text-align: center;
 }
