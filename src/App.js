@@ -34,7 +34,7 @@ class App extends Component {
         <Word word={this.state.word} letters={this.state.goodLetters} />
         {
           computeDisplay(this.state.word, this.state.goodLetters) === this.state.word
-            ? <button onClick={this.reStart} >restart</button>
+            ? <button onClick={this.reStart}>restart</button>
             : <Keyboard letters={this.state.letters} triedLetters={this.state.triedLetters} goodLetters={this.state.goodLetters} onClick={this.onClickLetter} />
         }
       </div>
